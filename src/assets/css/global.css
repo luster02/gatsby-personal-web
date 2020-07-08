@@ -1,0 +1,40 @@
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+.btn {
+  @apply bg-purple-500 text-white font-bold rounded border-purple-700 py-2 px-4 border-b-4;
+}
+
+.btn-secondary {
+  @apply bg-indigo-500 text-white font-bold rounded border-indigo-700 py-2 px-4 border-b-4;
+}
+
+.badge {
+  @apply flex bg-indigo-300 w-auto text-center justify-center text-white px-3 py-1 rounded-full leading-none items-center;
+}
+
+.badge-danger {
+  @apply flex bg-red-600 w-auto text-center justify-center text-white px-3 py-1 rounded-full leading-none items-center;
+}
+
+.badge-success {
+  @apply flex bg-green-400 w-auto text-center justify-center text-white px-3 py-1 rounded-full leading-none items-center;
+}
+
+.badge-gold {
+  @apply flex border-yellow-400 border border-2 w-auto text-center justify-center text-black px-3 py-1 rounded-full leading-none items-center;
+}
+
+.repos-list {
+  columns: 3;
+  -moz-columns: 3;
+  column-rule: 1px solid;
+  @apply p-4;
+}
+
+.repos-list li {
+  break-inside: avoid-column;
+}
