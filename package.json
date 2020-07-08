@@ -14,12 +14,18 @@
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
   },
   "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.13.1",
+    "firebase": "^7.15.5",
     "gatsby": "^2.23.12",
+    "gatsby-plugin-firebase": "^0.2.0-beta.4",
+    "gatsby-plugin-postcss": "^2.3.9",
+    "rc-texty": "^0.2.0",
     "react": "^16.12.0",
     "react-dom": "^16.12.0"
   },
   "devDependencies": {
-    "prettier": "2.0.5"
+    "prettier": "2.0.5",
+    "tailwindcss": "^1.4.6"
   },
   "repository": {
     "type": "git",
